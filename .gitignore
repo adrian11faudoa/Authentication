@@ -2,6 +2,4 @@
 node_modules/
 package-lock.json
 package.json
-JWT/
-cryptography/id_rsa_pub.pem
-cryptography/id_rsa_priv.pem
+text.txt
