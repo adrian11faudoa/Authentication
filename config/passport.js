@@ -1,7 +1,7 @@
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
-const connection = require('./database');
 const { validPassword } = require('../lib/passwordUtils');
+const connection = require('./database');
 const User = connection.models.User;
 
 const customFields = {

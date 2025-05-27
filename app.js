@@ -37,7 +37,6 @@ app.get('/', (req, res, next) => {
 });
 
 // -------------- PASSPORT AUTHENTICATION ----------------
-
 app.use(passport.initialize());
 app.use(passport.session());
 
@@ -48,15 +47,9 @@ app.use((req, res, next) => {
 });
 
 // -------------- ROUTES ----------------
- 
-
-// Imports all of the routes from ./routes/index.js
 app.use(routes);
 
-
-
  //-------------- SERVER ----------------
-
 app.listen(3000);
 
 

@@ -1,9 +1,7 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
-/**
- * -------------- DATABASE ----------------
- */
 
+// -------------- DATABASE ----------------
 const conn = process.env.MONGO_URI;
 
 const connection = mongoose.createConnection(conn);
