@@ -50,7 +50,7 @@ app.use((req, res, next) => {
 app.use(routes);
 
  //-------------- SERVER ----------------
-app.listen(3000);
+app.listen(3000,  '0.0.0.0');
 
 
 
